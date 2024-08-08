@@ -19,7 +19,7 @@
   padding: 50px;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  animation: fadeInUp 1.5s ease-in-out; /* إضافة الحركة هنا */
+  animation: fadeInUp 1.5s ease-in-out; 
 }
 
 .welcome-container h1 {
@@ -27,7 +27,7 @@
   color: #333;
   margin-bottom: 25px;
   font-weight: 700;
-  animation: fadeInUp 2s ease-in-out; /* إضافة الحركة هنا */
+  animation: fadeInUp 2s ease-in-out; 
 }
 
 .welcome-container p {
