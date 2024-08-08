@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef0fc;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #eef0fc;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: #a085f4;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.logout-button {
+  background-color: #fff;
+  color: #a085f4;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.box {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tasks-container {
+  margin-bottom: 20px;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item span {
+  cursor: pointer;
+}
+
+.task-item.done span {
+  color: #bbb;
+}
+
+.task-item.done span::before {
+  content: "✔ "; 
+  color: green;
+  opacity: .5;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  color: #d9534f;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #a085f4;
+  color: #fff;
+  font-size: 16px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.filter-button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #ddd;
+  color: #333;
+  font-size: 16px;
+}
+
+.filter-button.active {
+  background-color: #a085f4;
+  color: #fff;
+}
